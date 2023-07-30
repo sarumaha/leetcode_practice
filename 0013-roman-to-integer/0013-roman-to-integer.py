@@ -24,7 +24,6 @@ class Solution(object):
         
         total = 0
         i = 0
-        spec_symbol = False
 
         while i < len(s):
              if s[i:i+2] in special_symbols:
